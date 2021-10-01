@@ -1,0 +1,27 @@
+mkdir newRepo
+cd newRepo
+touch index.html
+touch css/style.css
+touch js/script.js
+git init
+git add .
+git commit -m "First Commit"
+git git remote add origin https://github.com/FundacionBlockchainChile/basic_repo.git
+git push origin master
+
+On GitHub
+
+Add ReadmeFile.txt
+Save
+
+On CLI
+
+git pull
+mkdir images
+cd images
+'add new images to the project'
+cd ..  
+git status
+git add .
+git commit -m "images added"
+git push
